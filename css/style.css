@@ -61,4 +61,13 @@ section{
     color: #fff;
 }
 
+/* footer */
+footer{
+    color: #fff;
+}
+.footer_up,
+.footer_down{
+    padding: 30px 0;
+}
+
 
