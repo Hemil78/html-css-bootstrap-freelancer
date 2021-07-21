@@ -23,9 +23,21 @@ header{
     position: fixed;
     top: 0;
     color: #fff;
-    height: 80px;
-    line-height: 80px;
     width: 100%;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand{
+    color:#fff;
+}
+.navbar-light .navbar-toggler{
+    /* color: gray; */
+    border-color: lightgray;
+}
+.navbar-toggler-icon{
+    color: lightgray;
 }
 
 /* MAIN */
