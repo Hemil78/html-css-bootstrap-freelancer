@@ -54,7 +54,11 @@ section{
     height: 250px;
     background-color: lightgray;
     border-radius: 10px;
+}
 
+/* about */
+#about{
+    color: #fff;
 }
 
 
