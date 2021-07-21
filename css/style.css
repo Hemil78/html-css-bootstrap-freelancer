@@ -91,15 +91,33 @@ section{
 
 /* portfolio */
 .portfolio_item{
+    position: relative;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 0;
-    height: 250px;
     background-color: lightgray;
     border-radius: 10px;
 }
 .portfolio_item img{
     width: 100%;
+}
+.play-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.portfolio_item:hover .play-overlay{
+    opacity: 1;
 }
 
 /* about */
