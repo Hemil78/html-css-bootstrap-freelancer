@@ -124,6 +124,23 @@ section{
 #about{
     color: #fff;
 }
+.btn-down{
+    color: white;
+    border: 1px solid white;
+    background-color: #1abc9c;
+    padding: 6px 10px;
+    margin-top: 20px;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.mb-3 textarea{
+    height: 150px;
+}
+.btn{
+    color: white;
+} 
 
 /* footer */
 footer{
