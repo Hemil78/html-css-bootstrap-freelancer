@@ -152,6 +152,7 @@ footer{
 .icons_web{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .icon_social{
     width: 50px;
@@ -159,7 +160,7 @@ footer{
     border: 1px solid white;
     border-radius: 50%;
     display: flex;
-    margin: 0 7px;
+    margin: 7px;
 }
 .icon_social i{
     margin: auto;
