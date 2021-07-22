@@ -137,9 +137,6 @@ section{
     border-bottom: 1px solid lightgray;
     border-radius: 0;
 }
-.mb-3 textarea{
-    height: 150px;
-}
 .btn{
     color: white;
 } 
