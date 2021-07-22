@@ -10,7 +10,7 @@ body{
     background-color: #3a546d;
 }
 .bg_secondary{
-    background-color: #1abc9c;
+    background-color: rgb(26, 188, 156);
 }
 .wrapper_small{
     max-width: 1000px;
@@ -111,7 +111,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(26, 188, 156, 0.7);
     font-size: 50px;
     color: white;
     opacity: 0;
